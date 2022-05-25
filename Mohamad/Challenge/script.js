@@ -2,3 +2,8 @@ let text = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$r
 
 console.log(text.split("$").join(" "))
 console.log(text.split("$").join(","))
+
+
+
+let nameMiddle = ["Mona", "Mohammad", "Sara", "john", "Gabriel"];
+console.log(nameMiddle[Math.floor((nameMiddle.length - 1) / 2)]);
