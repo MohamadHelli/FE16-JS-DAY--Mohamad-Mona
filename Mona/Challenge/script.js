@@ -4,5 +4,13 @@
 // console.log(sentence.split("$").join(" "));
 // console.log(sentence.split("$").join(", "));
 
-let nameMiddle = ["Mona", "Mohammad", "Sara", "john", "Gabriel"];
+let nameMiddle = [
+    "Mona",
+    "Mohammad",
+    "Stephan",
+    "John",
+    "Gabriel",
+    "Gabriel",
+    "Gabriel",
+];
 console.log(nameMiddle[Math.floor((nameMiddle.length - 1) / 2)]);
